@@ -80,7 +80,9 @@ test_environment:
 # PROJECT RULES                                                                 #
 #################################################################################
 
-
+## Generate CSV results file
+csv:
+	$(PYTHON_INTERPRETER) 'src/visualization/visualize.py'
 
 #################################################################################
 # Self Documenting Commands                                                     #
